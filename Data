@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<main>
+<div class="profile">
+<h1 class="profile_fullname">
+Yan Paing Phyo
+</h1>
