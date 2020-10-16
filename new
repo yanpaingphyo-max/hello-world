@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="profile">
+                <h1 class="profile__fullname">
+                    Ян Пайн Пхьоу
+                </h1>
+                <p>
+                    <span class="profile__info-label">Группа</span>
+                    <span class="profile__info-value">ИДМ-20-01</span><br>
+                    <span class="profile__info-label">Команда</span>
+                    <span class="profile__info-value">The Doors</span><br>
+                    <span class="profile__info-label">Роль</span>
+                    <span class="profile__info-value">Разработчик (Frontend)</span>        
+                </p>
+            </div>
+            <div class="laba">
+                <h2 class="laba__header">Лабораторная работа №1</h2>
+                <p>
+                    <h4>Задание:</h4> Необходимо создать сайт отчет и залить его на хостинг GitHub Pages
+                </p>
+                <p>
+                    <h4>Действия по создание и деплою на хостинг:</h4>
+                    Был создан новый репозиторий на сайте github pages<br>
+                    Была создана новая папка, в которой хранятся рабчие файла сайта<br>
+                </p>
+                <p>
+                    <h4>Команды для деплоя сайта на хостинг:</h4>
+                    git init - создает локальный репозиторий в нашей папке<br>
+                    git add . - добавление всех новых файлов в отслеживание<br>
+                    git commit -m"commit text" - создания комментария к нашим изменениям<br>
+                    git remote add origin ссылканарепозиторий - связываем наш локальный репозиторий с удаленным<br>
+                    git push -u origin master - пушим наши зменения на удаленный репозиторий<br>
+                    git checkout -b gh-pages - создаем новую ветку gh-pages, которая является хостингом<br>
+                    git checkout master - возвращаемся на ветку master<br>
+                    git push origin master:gh-pages - пушим все файлы из ветки msater в ветку gh-pages, тем самым заливая файлы на хостинг
+                </p>  
+            </div>
+            <div class="laba">
+                <h2 class="laba__header">Лабораторная работа №2</h2>
+                TBD
+            </div>
+            <div class="laba">
+                <h2 class="laba__header">Лабораторная работа №2</h2>
+                TBD
+            </div>
+        </main>
+    </body>
+</html>
